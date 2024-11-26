@@ -1,0 +1,35 @@
+.website-heading {
+    font-family: 'Ubuntu';
+    margin-top: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color:#cbcbcb;
+    font-size: 2rem;
+}
+
+.website-heading h1 span {
+    background-color: #003761;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.websites-wrapper > .websites-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 2rem;
+    color:rgb(110, 122, 132);
+    margin: 60px;
+    line-height: 50px;
+}
+
+.websites-wrapper > .websites-details p a,.websites-wrapper > .websites-details p i {
+    color: #003761;
+    margin-right: 20px;
+    text-decoration: none;
+}

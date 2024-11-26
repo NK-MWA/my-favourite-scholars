@@ -1,0 +1,137 @@
+.para-below-nav {
+    font-family: 'Ubuntu';
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20%;
+    row-gap: 20%;
+    padding: 50px;
+    padding-bottom: 200px;
+    /* background-color: #06526c; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #cbcbcb;
+    margin-top: 10px;
+    background-image: url(images/hadith.jpg);
+    padding: 100px;
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.para-below-nav > div > p {
+    font-weight: bolder;
+}
+
+.heading-of-list {
+    text-align: center;
+    font-size: 1.25rem;
+}
+
+/* the code is for list */
+
+.list-of-scholars {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 40%;
+    column-gap: 5%;
+    margin: 100px 50px 100px 50px;
+    margin-bottom: 400px;
+}
+
+.list-of-scholars  a {
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    font-size: x-large;
+    font-weight: bolder;
+    transition: all 1s;
+}
+
+.list-of-scholars  a:hover {
+    opacity: 50%;
+    color: rgb(6, 174, 174);
+    text-decoration: underline;
+}
+
+.list-of-scholars a:active {
+    text-decoration: none;
+}
+
+/* This code is for scholar */
+
+.minimun-details {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 100px;
+}
+
+.minimun-detail {
+   display: flex;
+   padding: 50px;
+   border: 1px solid transparent;
+   border-radius: 25px;
+   font-family: sans-serif;
+   align-items:center;
+}
+
+.minimun-detail a  {
+    font-size: 1.25rem;
+    text-decoration: none;
+    color:rgb(110, 122, 132);
+    line-height: 40px;
+    letter-spacing: 2px;
+    font-family: Inter;
+}
+
+.minimun-detailed {
+    display: flex;
+    padding: 50px;
+    border: 1px solid transparent;
+    border-radius: 25px;
+    font-family: sans-serif;
+    align-items:center;
+ }
+
+ .minimun-detailed a  {
+    font-size: 1.25rem;
+    text-decoration: none;
+    color:rgb(110, 122, 132);
+    line-height: 40px;
+    letter-spacing: 2px;
+    font-family: Inter;
+}
+
+.minimun-detailed a img {
+    border-radius: 10px;
+    margin-left: 50px;
+    box-shadow: 0px 0px 82px -28px rgba(0,0,0,1);
+    transition: 1s;
+    width: 500px;
+}
+
+.minimun-detailed a img:hover {
+    transform: translateY(-20px);
+}
+
+
+
+.minimun-detail a img {
+    border-radius: 10px;
+    margin-left: 50px;
+    box-shadow: 0px 0px 82px -28px rgba(0,0,0,1);
+    transition: 1s;
+    width: 500px;
+}
+
+.minimun-detail a img:hover {
+    transform: translateY(-20px);
+}
+
+     
+
+
+    

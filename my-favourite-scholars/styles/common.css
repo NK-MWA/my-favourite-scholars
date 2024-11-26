@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    font-family: 'Ubuntu','Inter',sans-serif;
+}
+
+/* For nav bar */
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    height: 500px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url(images/sultan-ahmad-mosque.jpg);
+}
+
+.header > .nav-links-wrapper  {
+    display: flex;
+    flex-direction:column ;
+    row-gap: 50px;
+}
+
+.header .nav-links-wrapper > .nav-link > a {
+    background: transparent;
+    outline: none;
+    border: none;
+    color: rgb(106, 194, 224);
+    transition: all 0.5s;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+
+} 
+
+.header > .nav-links-wrapper > .nav-link > a:hover {
+    color: rgba(3, 3, 130, 0.849);
+    font-size: 1.25em;
+    font-weight:700 ;
+    letter-spacing: 1px;
+    cursor: pointer;
+} 
+
+/* The below code is for footer */
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #003761;
+}
+
+.footer i {
+    color: rgba(3, 3, 130, 0.849); 
+    font-size: 3rem;
+    margin-bottom: 100px; 
+    margin-top: 50px;
+    margin-bottom: -100px;
+}
+
+.footer > .font-awesome  {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-content: space-around;
+  column-gap: 50px;
+  margin-bottom: 60px;
+} 
+
+.footer > .nav-links-wrapper > .nav-link {
+    text-align: center;
+}
+
+
+.footer > .nav-links-wrapper > .nav-link > a {
+    background: transparent;
+    outline: none;
+    border: none;
+    color: #6ac2e0;
+    transition: all 0.5s;
+    font-weight: 700;
+    text-decoration: none;
+    text-align: center;
+} 
+
+.footer > .nav-links-wrapper > .nav-link > a:hover {
+    color: rgba(3, 3, 130, 0.849);
+    font-size: 1.25em;
+    font-weight:700 ;
+    letter-spacing: 1px;
+    cursor: pointer;
+    text-align: center;
+} 
+
+.footer > .nav-links-wrapper  {
+    display: flex;
+    flex-direction:column ;
+    row-gap: 30px;
+    padding: 100px;
+    margin-bottom: -50px;
+}
+
+.copyright {
+    font-size: 0.75rem;
+    color: #cbcbcb;
+    padding-bottom: 50px;
+}
+
+
